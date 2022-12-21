@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="@dimen/_8sdp"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:layout_marginEnd="@dimen/_8sdp"
+    android:theme="@style/AppTheme.NoActionBar"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/colorSecondary"
+    app:strokeWidth="@dimen/_2sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clRootView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivTopic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/topic_math"
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:layout_margin="@dimen/_8sdp"
+            app:layout_constraintDimensionRatio="H,1:1"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvTopicName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            tools:text="Topic Name"
+            android:drawableEnd="@drawable/ic_next"
+            android:textColor="@color/grey_dark2"
+            android:textSize="@dimen/_16sdp"
+            app:layout_constraintStart_toEndOf="@id/ivTopic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

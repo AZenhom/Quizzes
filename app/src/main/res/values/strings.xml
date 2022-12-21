@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quizzzes</string>
+    <string name="school_name">Sunrise Public Schools</string>
+    <string name="click_twice">Please click BACK again to exit</string>
+    <string name="select_your_grade">Select Your Grade</string>
+    <string name="select_a_topic">Select a Topic</string>
+    <string name="select_topic">Select a Topic</string>
+    <string name="exam_name">Exam Name</string>
+    <string name="percentage_to_pass">Percentage to Pass</string>
+    <string name="no_of_questions">No of Questions</string>
+    <string name="status">Status</string>
+    <string name="exam_not_taken_yet">Not Taken Yet, Click to Take Exam</string>
+    <string name="exam_passed_retake">Passed, Click to Retake Exam</string>
+    <string name="exam_failed_retake">Failed, Click to Retake Exam</string>
+    <string name="exam_passed">Exam Passed</string>
+    <string name="exam_failed">Exam Failed</string>
+    <string name="select_exam">Select an Exam</string>
+    <string name="next_question">Next Question</string>
+    <string name="questions_progress">0/10</string>
+    <string name="finish_exam">Finish Exam</string>
+    <string name="choose_answer_first">Choose an answer first</string>
+    <string name="exam_passed_with_score">Exam passed with score</string>
+    <string name="exam_failed_with_score">Exam Failed, you must at least score</string>
+</resources>

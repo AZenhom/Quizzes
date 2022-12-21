@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.NoActionBar"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/grey_dark2"
+    app:strokeWidth="@dimen/_1sdp"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:layout_marginStart="@dimen/_8sdp"
+    android:layout_marginEnd="@dimen/_8sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/_8sdp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lblExamName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="center"
+            android:text="@string/exam_name"
+            android:textColor="@color/colorSecondary"
+            android:textSize="@dimen/_11sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvExamName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            tools:text="Chapter One Quiz"
+            android:textColor="@color/grey_dark2"
+            android:textSize="@dimen/_10sdp"
+            app:layout_constraintStart_toEndOf="@id/lblExamName"
+            app:layout_constraintTop_toTopOf="@id/lblExamName"
+            app:layout_constraintBottom_toBottomOf="@id/lblExamName"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lblPercentageNeeded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="center"
+            android:text="@string/percentage_to_pass"
+            android:textColor="@color/colorSecondary"
+            android:textSize="@dimen/_11sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lblExamName" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvPercentageNeeded"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            tools:text="50%"
+            android:textColor="@color/grey_dark2"
+            android:textSize="@dimen/_10sdp"
+            app:layout_constraintStart_toEndOf="@id/lblPercentageNeeded"
+            app:layout_constraintTop_toTopOf="@id/lblPercentageNeeded"
+            app:layout_constraintBottom_toBottomOf="@id/lblPercentageNeeded"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lblNoOfQuestions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="center"
+            android:text="@string/no_of_questions"
+            android:textColor="@color/colorSecondary"
+            android:textSize="@dimen/_11sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lblPercentageNeeded" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvNoOfQuestions"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            tools:text="15"
+            android:textColor="@color/grey_dark2"
+            android:textSize="@dimen/_10sdp"
+            app:layout_constraintStart_toEndOf="@id/lblNoOfQuestions"
+            app:layout_constraintTop_toTopOf="@id/lblNoOfQuestions"
+            app:layout_constraintBottom_toBottomOf="@id/lblNoOfQuestions"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/lblStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="center"
+            android:text="@string/status"
+            android:textColor="@color/colorSecondary"
+            android:textSize="@dimen/_11sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lblNoOfQuestions" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            tools:text="@string/exam_not_taken_yet"
+            android:textColor="@color/grey_dark2"
+            android:textSize="@dimen/_10sdp"
+            app:layout_constraintStart_toEndOf="@id/lblStatus"
+            app:layout_constraintTop_toTopOf="@id/lblStatus"
+            app:layout_constraintBottom_toBottomOf="@id/lblStatus"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:src="@drawable/ic_next"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
