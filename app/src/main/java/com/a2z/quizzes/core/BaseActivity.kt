@@ -1,4 +1,4 @@
-package com.a2z.quizzzes.core
+package com.a2z.quizzes.core
 
 import android.annotation.SuppressLint
 import android.content.pm.ActivityInfo
@@ -11,7 +11,7 @@ import android.view.inputmethod.InputMethodManager
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewbinding.ViewBinding
-import com.a2z.quizzzes.R
+import com.a2z.quizzes.R
 import com.google.android.material.appbar.MaterialToolbar
 import es.dmoral.toasty.Toasty
 

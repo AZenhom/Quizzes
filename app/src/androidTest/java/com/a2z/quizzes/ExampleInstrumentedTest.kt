@@ -1,4 +1,4 @@
-package com.a2z.quizzzes
+package com.a2z.quizzes
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.a2z.quizzzes", appContext.packageName)
+        assertEquals("com.a2z.quizzes", appContext.packageName)
     }
 }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Quizzzes</string>
+    <string name="app_name">Quizzes</string>
     <string name="school_name">Sunrise Public Schools</string>
     <string name="click_twice">Please click BACK again to exit</string>
     <string name="select_your_grade">Select Your Grade</string>

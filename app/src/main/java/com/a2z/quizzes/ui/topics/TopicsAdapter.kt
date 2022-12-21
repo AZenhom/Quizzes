@@ -1,4 +1,4 @@
-package com.a2z.quizzzes.ui.topics
+package com.a2z.quizzes.ui.topics
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.a2z.quizzzes.databinding.ItemTopicBinding
-import com.a2z.quizzzes.model.TopicModel
+import com.a2z.quizzes.databinding.ItemTopicBinding
+import com.a2z.quizzes.model.TopicModel
 
 class TopicsAdapter constructor(
     private val onItemClicked: ((topicModel: TopicModel) -> Unit)? = null,

@@ -1,4 +1,4 @@
-package com.a2z.quizzzes.ui.splash
+package com.a2z.quizzes.ui.splash
 
 import android.annotation.SuppressLint
 import android.os.Handler
@@ -6,10 +6,10 @@ import android.os.Looper
 import android.view.WindowManager
 import android.view.animation.AccelerateInterpolator
 import android.view.animation.AnimationUtils
-import com.a2z.quizzzes.R
-import com.a2z.quizzzes.core.BaseActivity
-import com.a2z.quizzzes.databinding.ActivitySplashBinding
-import com.a2z.quizzzes.ui.grades.GradesActivity
+import com.a2z.quizzes.R
+import com.a2z.quizzes.core.BaseActivity
+import com.a2z.quizzes.databinding.ActivitySplashBinding
+import com.a2z.quizzes.ui.grades.GradesActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : BaseActivity<ActivitySplashBinding>() {

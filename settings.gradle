@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "Quizzzes"
+rootProject.name = "Quizzes"
 include ':app'

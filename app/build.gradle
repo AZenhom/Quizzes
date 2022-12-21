@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.a2z.quizzzes'
+    namespace 'com.a2z.quizzes'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.a2z.quizzzes"
+        applicationId "com.a2z.quizzes"
         minSdk 21
         targetSdk 33
         versionCode 1

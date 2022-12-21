@@ -1,11 +1,11 @@
-package com.a2z.quizzzes.ui.grades
+package com.a2z.quizzes.ui.grades
 
 import android.content.Context
 import android.content.Intent
-import com.a2z.quizzzes.core.BaseActivity
-import com.a2z.quizzzes.databinding.ActivityGradesBinding
-import com.a2z.quizzzes.model.GradeModel
-import com.a2z.quizzzes.ui.topics.TopicsActivity
+import com.a2z.quizzes.core.BaseActivity
+import com.a2z.quizzes.databinding.ActivityGradesBinding
+import com.a2z.quizzes.model.GradeModel
+import com.a2z.quizzes.ui.topics.TopicsActivity
 
 class GradesActivity : BaseActivity<ActivityGradesBinding>() {
 

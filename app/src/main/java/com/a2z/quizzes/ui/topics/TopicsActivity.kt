@@ -1,12 +1,12 @@
-package com.a2z.quizzzes.ui.topics
+package com.a2z.quizzes.ui.topics
 
 import android.content.Context
 import android.content.Intent
-import com.a2z.quizzzes.core.BaseActivity
-import com.a2z.quizzzes.databinding.ActivityTopicsBinding
-import com.a2z.quizzzes.model.GradeModel
-import com.a2z.quizzzes.model.TopicModel
-import com.a2z.quizzzes.ui.exams.exams_list.ExamsActivity
+import com.a2z.quizzes.core.BaseActivity
+import com.a2z.quizzes.databinding.ActivityTopicsBinding
+import com.a2z.quizzes.model.GradeModel
+import com.a2z.quizzes.model.TopicModel
+import com.a2z.quizzes.ui.exams.exams_list.ExamsActivity
 
 class TopicsActivity : BaseActivity<ActivityTopicsBinding>() {
 

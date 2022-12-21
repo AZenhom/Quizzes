@@ -1,13 +1,13 @@
-package com.a2z.quizzzes.ui.exams.take_exam
+package com.a2z.quizzes.ui.exams.take_exam
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
-import com.a2z.quizzzes.R
-import com.a2z.quizzzes.core.BaseActivity
-import com.a2z.quizzzes.databinding.ActivityTakeExamBinding
-import com.a2z.quizzzes.model.ExamModel
-import com.a2z.quizzzes.model.QuestionModel
+import com.a2z.quizzes.R
+import com.a2z.quizzes.core.BaseActivity
+import com.a2z.quizzes.databinding.ActivityTakeExamBinding
+import com.a2z.quizzes.model.ExamModel
+import com.a2z.quizzes.model.QuestionModel
 
 class TakeExamActivity : BaseActivity<ActivityTakeExamBinding>() {
 

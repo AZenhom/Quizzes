@@ -1,4 +1,4 @@
-package com.a2z.quizzzes
+package com.a2z.quizzes
 
 import org.junit.Test
 

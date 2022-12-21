@@ -1,4 +1,4 @@
-package com.a2z.quizzzes.ui.exams.exams_list
+package com.a2z.quizzes.ui.exams.exams_list
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.a2z.quizzzes.R
-import com.a2z.quizzzes.databinding.ItemExamBinding
-import com.a2z.quizzzes.model.ExamModel
-import com.a2z.quizzzes.model.ExamStatus
+import com.a2z.quizzes.R
+import com.a2z.quizzes.databinding.ItemExamBinding
+import com.a2z.quizzes.model.ExamModel
+import com.a2z.quizzes.model.ExamStatus
 
 class ExamsAdapter constructor(
     private val onItemClicked: ((transaction: ExamModel) -> Unit)? = null,

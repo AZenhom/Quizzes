@@ -1,4 +1,4 @@
-package com.a2z.quizzzes.model
+package com.a2z.quizzes.model
 
 import java.io.Serializable
 

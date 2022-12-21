@@ -1,12 +1,12 @@
-package com.a2z.quizzzes.ui.grades
+package com.a2z.quizzes.ui.grades
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.a2z.quizzzes.databinding.ItemGradeBinding
-import com.a2z.quizzzes.model.GradeModel
+import com.a2z.quizzes.databinding.ItemGradeBinding
+import com.a2z.quizzes.model.GradeModel
 
 class GradesAdapter constructor(
     private val onItemClicked: ((gradeModel: GradeModel) -> Unit)? = null,
