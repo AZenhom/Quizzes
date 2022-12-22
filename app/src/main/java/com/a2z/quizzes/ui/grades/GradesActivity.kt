@@ -15,7 +15,7 @@ class GradesActivity : BaseActivity<ActivityGradesBinding>() {
 
     override val binding by viewBinding(ActivityGradesBinding::inflate)
 
-    lateinit var adapter: GradesAdapter
+    private lateinit var adapter: GradesAdapter
 
     override fun onActivityCreated() {
         doubleBackToExitPressedOnce = false
@@ -26,7 +26,8 @@ class GradesActivity : BaseActivity<ActivityGradesBinding>() {
     }
 
     private fun getData() {
-
+        val grades = GradesDataSourceMock().getAllGrades()
+        adapter.submitList(grades)
     }
 
     private fun openTopicsActivity(selectedGrade: GradeModel) {

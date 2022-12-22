@@ -23,8 +23,10 @@ class ExamsActivity : BaseActivity<ActivityExamsBinding>() {
     override val binding by viewBinding(ActivityExamsBinding::inflate)
 
     private lateinit var adapter: ExamsAdapter
+    private lateinit var examsDataSourceMock: ExamsDataSourceMock
 
     override fun onActivityCreated() {
+        examsDataSourceMock = ExamsDataSourceMock(this)
         registerToolBarOnBackPressed(binding.toolbar)
         adapter = ExamsAdapter { openTakeExamActivity(it) }
         binding.rvExams.adapter = adapter
@@ -36,6 +38,9 @@ class ExamsActivity : BaseActivity<ActivityExamsBinding>() {
     }
 
     private fun getData() {
+        val topicModel = intent.getSerializableExtra(TOPIC_MODEL) as TopicModel
+        val exams = examsDataSourceMock.getExams(topicModel.id)
+        adapter.submitList(exams)
     }
 
     private fun openTakeExamActivity(selectedExam: ExamModel) {

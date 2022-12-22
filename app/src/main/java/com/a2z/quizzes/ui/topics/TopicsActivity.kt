@@ -22,7 +22,7 @@ class TopicsActivity : BaseActivity<ActivityTopicsBinding>() {
 
     override val binding by viewBinding(ActivityTopicsBinding::inflate)
 
-    lateinit var adapter: TopicsAdapter
+    private lateinit var adapter: TopicsAdapter
 
     override fun onActivityCreated() {
         registerToolBarOnBackPressed(binding.toolbar)
@@ -32,6 +32,9 @@ class TopicsActivity : BaseActivity<ActivityTopicsBinding>() {
     }
 
     private fun getData() {
+        val currentGrade = intent.getSerializableExtra(GRADE_MODEL) as GradeModel?
+        val gradeTopics = TopicsDataSourceMock().getGradeTopics(currentGrade?.id)
+        adapter.submitList(gradeTopics)
     }
 
     private fun openExamsActivity(selectedTopic: TopicModel) {

@@ -6,5 +6,5 @@ data class TopicModel(
     val id: String? = null,
     val name: String? = null,
     val resName: String? = null,
-    val gradeId: String? = null,
+    val gradeId: Int? = null,
 ) : Serializable

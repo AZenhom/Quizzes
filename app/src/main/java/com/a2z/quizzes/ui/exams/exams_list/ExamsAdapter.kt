@@ -40,7 +40,7 @@ class ExamsAdapter constructor(
                 tvPercentageNeeded.text = "${item.percentageToPass}%"
 
                 // No of Questions
-                tvPercentageNeeded.text = item.questionsList?.size?.toString()
+                tvNoOfQuestions.text = item.questionsList?.size?.toString()
 
                 // Status
                 when (item.status) {
