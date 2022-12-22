@@ -11,8 +11,10 @@ The data layer of the app is mocked with fake data objects for illustration.
 
 ## Screenshots
 
-![Screenshot-1](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/1.png | width=100) ![Screenshot-2](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/2.png | width=100) ![Screenshot-3](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/3.png | width=100)
-![Screenshot-4](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/4.png | width=100) ![Screenshot-5](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/5.png | width=100) ![Screenshot-6](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/6.png | width=100)
-![Screenshot-7](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/7.png | width=100)
 
-<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/1.png" width="200" />
+
+<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/1.png" width="200" /> <img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/2.png" width="200" /> <img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/3.png" width="200" />
+<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/4.png" width="200" />
+<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/5.png" width="200" />
+<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/6.png" width="200" />
+<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/7.png" width="200" />
