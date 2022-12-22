@@ -13,9 +13,5 @@ The data layer of the app is mocked with fake data objects for illustration.
 
 
 
-<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/2.png" width="200" />
-<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/3.png" width="200" />
-<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/4.png" width="200" />
-<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/5.png" width="200" />
-<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/6.png" width="200" />
-<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/7.png" width="200" />
+<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/2.png" width="200" /> <img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/3.png" width="200" /> <img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/4.png" width="200" />
+<img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/5.png" width="200" /> <img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/6.png" width="200" /> <img src="https://github.com/AZenhom/Quizzes/raw/master/Screenshots/7.png" width="200" />
