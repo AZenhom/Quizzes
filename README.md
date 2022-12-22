@@ -11,4 +11,6 @@ The data layer of the app is mocked with fake data objects for illustration.
 
 ## Screenshots
 
-![Screenshot-1](https://raw.githubusercontent.com/AhmedAlaaZenhom/HyperOneTask/master/Screenshots/Screenshot_1633603188.png) ![Screenshot-2](https://raw.githubusercontent.com/AhmedAlaaZenhom/HyperOneTask/master/Screenshots/Screenshot_1633603202.png)
+![Screenshot-1](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/1.png) ![Screenshot-2](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/2.png) ![Screenshot-3](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/3.png)
+![Screenshot-4](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/4.png) ![Screenshot-2](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/5.png) ![Screenshot-3](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/6.png)
+![Screenshot-1](https://github.com/AZenhom/Quizzes/raw/master/Screenshots/7.png)
